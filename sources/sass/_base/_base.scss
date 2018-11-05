@@ -1,0 +1,39 @@
+// BASE
+// -------------------------
+*,
+*:before, 
+*:after {
+	box-sizing: border-box;
+	backface-visibility: hidden;
+}
+
+html, 
+body {
+	font-size: 16px;
+	line-height: 1.45em;
+	color: $black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-title;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2.5px;
+	line-height: 1.45em;
+}
+
+p {
+	font-family: $font-text;
+}
+
+a {
+	text-decoration: none;
+	font-family: $font-text;
+}
+
+

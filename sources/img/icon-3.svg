@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="20px" viewBox="0 0 23 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>barchart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Expertise" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-729.000000, -22.000000)" fill="#FF5C36" id="Carousel">
+            <g>
+                <g id="Slider-button-3" transform="translate(709.000000, 0.000000)">
+                    <g id="Group-3" transform="translate(20.000000, 22.000000)">
+                        <path d="M0.71875,19.921875 L0.71875,5.90625 L6.46875,5.90625 L6.46875,19.921875 L0.71875,19.921875 Z M2.515625,7.703125 L2.515625,18.125 L4.671875,18.125 L4.671875,7.703125 L2.515625,7.703125 Z M16.53125,8.421875 L22.28125,8.421875 L22.28125,19.921875 L16.53125,19.921875 L16.53125,8.421875 Z M20.484375,18.125 L20.484375,10.21875 L18.328125,10.21875 L18.328125,18.125 L20.484375,18.125 Z M8.625,19.921875 L8.625,0.875 L14.375,0.875 L14.375,19.921875 L8.625,19.921875 Z M10.421875,2.671875 L10.421875,18.125 L12.578125,18.125 L12.578125,2.671875 L10.421875,2.671875 Z" id="barchart"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

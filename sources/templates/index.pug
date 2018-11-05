@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	title JS + CSS + HTML Slider
+	meta(name="viewport" content="width=device-width, initial-scale=1.0")
+	link(rel="stylesheet" href="css/styles.css")
+body
+	#slider
+		//- Slider navigation
+		ul#slider-nav
+			li
+				img(src="img/icon-1.svg", alt="Health Icon")
+				span Health
+			li
+				img(src="img/icon-2.svg", alt="Environment Icon")
+				span Environment
+			li
+				img(src="img/icon-3.svg", alt="Data Icon")
+				span Data
+			li
+				img(src="img/icon-4.svg", alt="Engineering Icon")
+				span Engineering
+
+		//- Slider content wrapper
+		#slider-wrapper
+			//- Slider background grid
+			ul#slider-grid
+				li
+				li
+				li
+				li
+			//- Slider content box
+			ul#slider-content
+
+				//- Slide 1
+				li.slide
+					figure
+						img(src="img/image-1.jpg", alt="Health Image")
+					.slide__content.-right
+						.slide__cat
+							img(src="img/icon-1.svg", alt="Health Category")
+							span Health
+						h2 Health Innovation Ecosystem
+						p Research and innovation at the University focuses on some of the most pressing challenges facing healthcare, with world-leading insights into the causes of musculoskeletal disorders, cardiovascular disease, viral infections and cancer. Leeds is also home to leading experts in medical technologies whose groundbreaking research is helping business to accelerate their route to market.
+						a(href="/" title="Health Innovation Ecosystem") Find out more
+
+				//- Slide 2
+				li.slide
+					figure
+						img(src="img/image-2.jpg", alt="Environment Image")
+					.slide__content.-right
+						.slide__cat
+							img(src="img/icon-2.svg", alt="Environment Category")
+							span Environment
+						h2 HUNDERSTANDING ENVIRONMENTAL CHANGE
+						p The world is changing both through natural causes and the impact of human activity. These changes affect the whole of society and there is a need to better understand them to provide advice and practical solutions to manage and mitigate their impact. World-leading research at Leeds spans earth sciences, environmental science and sustainability, human and physical geography and transport planning.
+						a(href="/" title="Health Innovation Ecosystem") Find out more
+
+				//- Slide 3
+				li.slide
+					figure.order-2
+						img(src="img/image-3.jpg", alt="Data Image")
+					.slide__content.-left
+						.slide__cat
+							img(src="img/icon-3.svg", alt="Data Category")
+							span Data
+						h2 OPTIMISING VALUE FROM DATA
+						p Research covers all major aspects of engineering and the physical sciences, including cross-cutting themes such as energy, materials, medical engineering and artificial intelligence, with theoretical, experimental and modelling work underpinning all areas. Applying interdisciplinary expertise to tackle industry challenges is central to our way of working.
+						a(href="/" title="Health Innovation Ecosystem") Find out more
+				li.slide
+					figure.order-2
+						img(src="img/image-4.jpg", alt="Engineering Image")
+					.slide__content.-left
+						.slide__cat
+							img(src="img/icon-4.svg", alt="Engineering Category")
+							span Engineering
+						h2 FROM NANOSCALE TO ADVANCED ENGINEERING
+						p Research covers all major aspects of engineering and the physical sciences, including cross-cutting themes such as energy, materials, medical engineering and artificial intelligence, with theoretical, experimental and modelling work underpinning all areas. Applying interdisciplinary expertise to tackle industry challenges is central to our way of working.
+						a(href="/" title="Health Innovation Ecosystem") Find out more
+						
+			//- Button controls
+			ul#slider-controls
+				li#slider-prev
+					img(src="img/icon-arrow.svg", alt="Previous Slide")
+				li#slider-next
+					img(src="img/icon-arrow.svg", alt="Next Slide")
+			
+	script(src="js/app.js")
+
+		
+
+
+
+	
